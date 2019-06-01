@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Jun 01, 2019 at 11:49 AM
+- Server version: 10.1.37-MariaDB
+- PHP Version: 5.6.40
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="pdt" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `id` int(5) NOT NULL AUTO_INCREMENT,
+                  `email` varchar(50) NOT NULL,
+                  `username` varchar(30) NOT NULL,
+                  `password` varchar(30) NOT NULL,
+                  `name` varchar(50) NOT NULL,
+                  `phone` varchar(15) NOT NULL,
+                  `level` varchar(5) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'pdt'
+    -->
+    <database name="pdt">
+        <!-- Table users -->
+        <table name="users">
+            <column name="id">1</column>
+            <column name="email">admin@admin.com</column>
+            <column name="username">admin</column>
+            <column name="password">admin123</column>
+            <column name="name">Admin</column>
+            <column name="phone">08123456789</column>
+            <column name="level">admin</column>
+        </table>
+        <table name="users">
+            <column name="id">2</column>
+            <column name="email">wildan.mutaqin.1@gmail.com</column>
+            <column name="username">wildan.mutaqin</column>
+            <column name="password">wildan123</column>
+            <column name="name">Wildan Mutaqin</column>
+            <column name="phone"></column>
+            <column name="level">user</column>
+        </table>
+        <table name="users">
+            <column name="id">3</column>
+            <column name="email">bangjarot@gmail.com</column>
+            <column name="username">nanununanunu</column>
+            <column name="password">merdeka123</column>
+            <column name="name">Haqqi ajah</column>
+            <column name="phone">08127211241</column>
+            <column name="level"></column>
+        </table>
+        <table name="users">
+            <column name="id">4</column>
+            <column name="email">mayda.brilliani1003@students.unila.ac.id</column>
+            <column name="username">mayda.brilliani1003</column>
+            <column name="password">andanendut99!</column>
+            <column name="name">mayda brilliani</column>
+            <column name="phone">085326521313</column>
+            <column name="level"></column>
+        </table>
+        <table name="users">
+            <column name="id">5</column>
+            <column name="email">susiindah@gmail.com</column>
+            <column name="username">susi.indahlestari</column>
+            <column name="password">susi123</column>
+            <column name="name">Susi Indah</column>
+            <column name="phone"></column>
+            <column name="level"></column>
+        </table>
+        <table name="users">
+            <column name="id">6</column>
+            <column name="email">kakakarif@gmail.com</column>
+            <column name="username">kakakarif</column>
+            <column name="password">merdeka123</column>
+            <column name="name">Arif Nasrullah</column>
+            <column name="phone"></column>
+            <column name="level"></column>
+        </table>
+        <table name="users">
+            <column name="id">7</column>
+            <column name="email">Ayfa21@gmail.com</column>
+            <column name="username">Ayfa21</column>
+            <column name="password">merdeka123</column>
+            <column name="name">Farhan Hans</column>
+            <column name="phone"></column>
+            <column name="level"></column>
+        </table>
+        <table name="users">
+            <column name="id">8</column>
+            <column name="email">kiwil99@yahoo.co.id</column>
+            <column name="username">kiwil99</column>
+            <column name="password">merdeka123</column>
+            <column name="name">Alharis Darma</column>
+            <column name="phone"></column>
+            <column name="level"></column>
+        </table>
+        <table name="users">
+            <column name="id">9</column>
+            <column name="email">jojodel12@gmail.com</column>
+            <column name="username">jojodel</column>
+            <column name="password">merdeka123</column>
+            <column name="name">Jodi Afandi</column>
+            <column name="phone"></column>
+            <column name="level"></column>
+        </table>
+        <table name="users">
+            <column name="id">10</column>
+            <column name="email">Wuljod@gmail.com</column>
+            <column name="username">Wuljod</column>
+            <column name="password">merdeka123</column>
+            <column name="name">Wulan Forever</column>
+            <column name="phone"></column>
+            <column name="level"></column>
+        </table>
+        <table name="users">
+            <column name="id">11</column>
+            <column name="email">zulhaqqimuslim@gmail.com</column>
+            <column name="username">Haqqi</column>
+            <column name="password">merdeka123</column>
+            <column name="name">haqqi muslim</column>
+            <column name="phone"></column>
+            <column name="level"></column>
+        </table>
+        <table name="users">
+            <column name="id">12</column>
+            <column name="email">zhaqqi99@gmail.com</column>
+            <column name="username">zulhaqqi99</column>
+            <column name="password">merdeka123</column>
+            <column name="name">zul haqqi</column>
+            <column name="phone"></column>
+            <column name="level"></column>
+        </table>
+        <table name="users">
+            <column name="id">13</column>
+            <column name="email">wildan.mutaqin.11@gmail.com</column>
+            <column name="username">wildan.mutaqin10371</column>
+            <column name="password">wildan123</column>
+            <column name="name">Wildan Mutaqin</column>
+            <column name="phone"></column>
+            <column name="level"></column>
+        </table>
+    </database>
+</pma_xml_export>
